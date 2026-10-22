@@ -1,0 +1,19 @@
+#conda activate safetruck_env 3.10
+# --- Lõi AI/ML và YOLOv8 ---
+ultralytics         # Thư viện chính của YOLOv8
+torch               # PyTorch (YOLOv8 chạy trên nền tảng này)
+torchvision
+
+# --- Xử lý Dữ liệu và Hình ảnh ---
+opencv-python       # Cần cho xử lý video/hình ảnh (cv2)
+numpy               # Thư viện toán học
+pandas              # Dùng để phân tích kết quả, xử lý file
+tqdm                # Tạo thanh tiến trình (progress bar) đẹp khi xử lý data
+
+# --- Dataset (MAN TruckScenes) ---
+# Cài đặt devkit của MAN trực tiếp từ GitHub
+git+https://github.com/TUMFTM/truckscenes-devkit.git
+
+# --- Thử nghiệm & Phân tích (NCKH) ---
+jupyterlab          # Để chạy các file .ipynb trong thư mục notebooks/
+matplotlib          # Để vẽ biểu đồ

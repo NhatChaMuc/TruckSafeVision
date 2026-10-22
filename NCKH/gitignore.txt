@@ -1,0 +1,12 @@
+venv/
+
+__pycache__/
+
+*.pt
+
+runs/
+
+data/raw/
+
+.ipynb_checkpoints/
+
